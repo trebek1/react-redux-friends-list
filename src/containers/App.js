@@ -8,8 +8,6 @@ import * as reducers from 'Reducers';
 const reducer = combineReducers(reducers); 
 const store = createStore(reducer); 
 
-
-
 export default class App extends Component {
   render() {
     return (
@@ -19,8 +17,7 @@ export default class App extends Component {
 	    	</Provider>
 
 	    	{renderDevTools(store)}
-	      
-	      <h1>Hello, Doge.</h1>
+	     
 	    </div>
     );
   }

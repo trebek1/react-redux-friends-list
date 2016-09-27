@@ -18,7 +18,8 @@ module.exports = {
       App : 'src/containers/App.js',
       DevTools: 'src/utils/devTools',
       FriendsListApp: 'src/containers/FriendsListApp',
-      Reducers: 'src/reducers'
+      Reducers: 'src/reducers',
+      ActionTypes: 'src/constraints/ActionTypes'
     },
     extensions: ['', '.js', '.jsx']
   },
