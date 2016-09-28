@@ -17,8 +17,9 @@ module.exports = {
     alias: {
       App : 'src/containers/App.js',
       DevTools: 'src/utils/devTools',
-      FriendsListApp: 'src/containers/FriendsListApp',
-      Reducers: 'src/reducers',
+      TodoComponent: 'src/components/TodoComponent',
+      TodoActions: 'src/actions/TodoActions',
+      Reducers: 'src/reducers/reducers',
       ActionTypes: 'src/constraints/ActionTypes'
     },
     extensions: ['', '.js', '.jsx']
